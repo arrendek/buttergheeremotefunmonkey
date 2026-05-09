@@ -28,11 +28,11 @@ CHECKPOINT_MODELS=(
 )
 
 DIFFUSION_MODELS=( 
-	https://huggingface.co/circlestone-labs/Anima/resolve/main/split_files/diffusion_models/anima-preview3-base.safetensors
+	"https://huggingface.co/circlestone-labs/Anima/resolve/main/split_files/diffusion_models/anima-preview3-base.safetensors"
 )
 
 TEXT_ENC_MODELS=(
-    https://huggingface.co/circlestone-labs/Anima/resolve/main/split_files/text_encoders/qwen_3_06b_base.safetensors
+    "https://huggingface.co/circlestone-labs/Anima/resolve/main/split_files/text_encoders/qwen_3_06b_base.safetensors"
 )
 
 AUDIO_ENC_MODELS=(
@@ -45,7 +45,7 @@ LORA_MODELS=(
 )
 
 VAE_MODELS=(
-	https://huggingface.co/circlestone-labs/Anima/resolve/main/split_files/text_encoders/qwen_3_06b_base.safetensors
+	"https://huggingface.co/circlestone-labs/Anima/resolve/main/split_files/text_encoders/qwen_3_06b_base.safetensors"
 )
 
 ESRGAN_MODELS=(
