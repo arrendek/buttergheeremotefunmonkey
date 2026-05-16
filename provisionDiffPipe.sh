@@ -1,7 +1,6 @@
 #!/bin/bash
 
-cd /workspace
-curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+curl -o /workspace/Miniconda3-latest-Linux-x86_64.sh https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 bash /workspace/Miniconda3-latest-Linux-x86_64.sh -b -p /workspace/miniconda3
 source /workspace/miniconda3/bin/activate
 conda init --all
