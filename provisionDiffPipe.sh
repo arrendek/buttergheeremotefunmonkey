@@ -9,5 +9,6 @@
 cd /workspace
 git clone --recurse-submodules https://github.com/tdrussell/diffusion-pipe
 pip install torch torchvision
-pip install -r requirements.txt
+pip install -r /workspace/diffusion-pipe/requirements.txt
 pip install flash-attn
+pip install --no-build-isolation transformer_engine[pytorch]
